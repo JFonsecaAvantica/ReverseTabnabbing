@@ -1,0 +1,720 @@
+CTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+	<title>Credit Sesame - Log In</title> 
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	<link rel="shortcut icon" href="https://csesamesecure.s3.amazonaws.com/images/favicon.ico" />
+	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600,700" />
+    <link rel="stylesheet" type="text/css" href="/themes/modular/css/specific-overall-v3.css"/>
+    <link rel="stylesheet" type="text/css" href="/themes/tang/css/14mobileMedia.css" />
+    <link rel="stylesheet" type="text/css" href="/themes/modular/css/public-footer.css"/>
+	<link rel="stylesheet" type="text/css" href="/themes/tang/css/specific-fontface.css" />
+	<script src="https://www.google.com/recaptcha/api.js?render=6LcV65oUAAAAAMMoDgBZIK3Q9TRhWM0SVJodEE2a"></script>
+	<script type="text/javascript">
+		var getUrlParameter = function getUrlParameter(sParam) {
+		   var sPageURL = decodeURIComponent(window.location.search.substring(1)),
+		       sURLVariables = sPageURL.split('&'),
+		       sParameterName,
+		       i;
+
+		   for (i = 0; i < sURLVariables.length; i++) {
+		       sParameterName = sURLVariables[i].split('=');
+
+		       if (sParameterName[0] === sParam) {
+		           return sParameterName[1] === undefined ? true : sParameterName[1];
+		       }
+		   }
+		};
+
+		var optimizely_opt_out = getUrlParameter('optimizely_opt_out');
+
+		if (!(typeof optimizely_opt_out === 'undefined')) {
+		 alert = function(){};
+		}
+	</script>
+	
+	<script type="text/javascript" src="/3rd_party/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="/js/common/jquery/jquery.tools.min.js"></script>
+    <script type="text/javascript" src="/js/common/jquery/jquery.validate-1.6.min.js"></script>
+	<script type="text/javascript" src="/js/common/jquery/jquery.cookies.2.1.0.min.js"></script>
+    <script type="text/javascript" src="/js/common/ba-debug.min.js"></script>
+    <script type="text/javascript" src="/js/common/jquery/jquery.redirect.min.js"></script>
+    <script type="text/javascript" src="/js/common/jquery/jquery.base64.min.js"></script>
+<script type="text/javascript" src="/jsmin/gzip_N761436204/bundles/mainTracking.min.js" ></script>
+<script type="text/javascript" src="/jsmin/gzip_67212816/jsmin/common/tracking/loginTracking.js" ></script>
+<script type="text/javascript" src="/jsmin/gzip_N1200324038/jsmin/ads/overview-ads.js" ></script>
+<script type="text/javascript" src="/jsmin/gzip_1221940907/bundles/common.min.js" ></script>
+<script type="text/javascript" src="/jsmin/gzip_N892442915/jsmin/common/tracking.js" ></script>
+<script type="text/javascript" src="/jsmin/gzip_1386632244/jsmin/common/captchaController.js" ></script>
+<script type="text/javascript" src="/jsmin/gzip_N475092775/bundles/mobileComponents.min.js" ></script>
+<script type="text/javascript" src="/jsmin/gzip_934864447/bundles/personalLoanPreApproval.min.js" ></script>
+<script type="text/javascript" src="/jsmin/gzip_1369637329/bundles/financialOffers.min.js" ></script>
+    <!-- BEGIN - Additional libraries added to test optimizely experiment WEB-30172 -->
+    <script type="text/javascript" src="/js/common/additional-methods-1.16.0.js"></script>
+<script type="text/javascript" src="/jsmin/gzip_N873343369/jsmin/abtesting/constants.js" ></script>
+<script type="text/javascript" src="/jsmin/gzip_1321909611/jsmin/featureflag/constants.js" ></script>
+<script type="text/javascript" src="/jsmin/gzip_1735117155/jsmin/featureflag/feature.control.js" ></script>
+<script type="text/javascript" src="/jsmin/gzip_N1913281711/jsmin/abtesting/ab.testing.js" ></script>
+    
+	<!-- END - Additional libraries added to test optimizely experiment WEB-30172 -->
+<script>
+var mixPanelInitId="6dc5ae47a9f2d0f00f01818995ca6fa2";
+</script>
+<!-- start Mixpanel -->
+<script type="text/javascript">(function(e,a){if(!a.__SV){var b=window;try{var c,l,i,j=b.location,g=j.hash;c=function(a,b){return(l=a.match(RegExp(b+"=([^&]*)")))?l[1]:null};g&&c(g,"state")&&(i=JSON.parse(decodeURIComponent(c(g,"state"))),"mpeditor"===i.action&&(b.sessionStorage.setItem("_mpcehash",g),history.replaceState(i.desiredHash||"",e.title,j.pathname+j.search)))}catch(m){}var k,h;window.mixpanel=a;a._i=[];a.init=function(b,c,f){function e(b,a){var c=a.split(".");2==c.length&&(b=b[c[0]],a=c[1]);b[a]=function(){b.push([a].concat(Array.prototype.slice.call(arguments,
+0)))}}var d=a;"undefined"!==typeof f?d=a[f]=[]:f="mixpanel";d.people=d.people||[];d.toString=function(b){var a="mixpanel";"mixpanel"!==f&&(a+="."+f);b||(a+=" (stub)");return a};d.people.toString=function(){return d.toString(1)+".people (stub)"};k="disable time_event track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config reset people.set people.set_once people.increment people.append people.union people.track_charge people.clear_charges people.delete_user".split(" ");
+for(h=0;h<k.length;h++)e(d,k[h]);a._i.push([b,c,f])};a.__SV=1.2;b=e.createElement("script");b.type="text/javascript";b.async=!0;b.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?MIXPANEL_CUSTOM_LIB_URL:"file:"===e.location.protocol&&"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";c=e.getElementsByTagName("script")[0];c.parentNode.insertBefore(b,c)}})(document,window.mixpanel||[]);
+mixpanel.init(mixPanelInitId);
+</script>
+<script type="text/javascript" src="https://d1k28af5t2gp7l.cloudfront.net/wp-content/themes/creditsesame/js/tracking/mixpanel.min.js?ver=2"></script>
+<!-- end Mixpanel -->		<!-- Mixpanel pageview tracking -->
+		<script type="text/javascript">
+			if(typeof CSMxpTracker != "undefined"){
+				CSMxpTracker.setPageName("Login").trackPageView();
+			}
+		</script>
+
+	
+	<style type="text/css">
+/* Ver 3.0: Mon, 05 March 2018 */
+
+.content-container {margin: 0 auto; max-width: 960px;}
+.max340{max-width:340px;}
+.takeoverErrorStyling{
+	border-radius:5px;
+	font-size:14px;
+    padding: 16px!important;
+    margin:16px auto;
+    max-width:340px;
+}
+.takeoverErrorStyling a{color:#606060;	text-decoration:underline;}
+#feedbackPanel {background-color:#FFCCCC;}
+#informationPanel.success{background-color:#D6F2D8;}
+		
+.site-logo {background: url("//csesamesecure.s3.amazonaws.com/themes/modular/skin/logo-credit-sesame.png") no-repeat scroll left top rgba(0, 0, 0, 0);  color: rgba(0, 0, 0, 0);font-size:0;height:46px;left:0;position:absolute;top:17px;width:178px;} 
+.emergLogo {background: url("//csesamesecure.s3.amazonaws.com/images/login_other_Emerge.png") no-repeat scroll left top rgba(0, 0, 0, 0);  color: rgba(0, 0, 0, 0); height:84px; top:-1px; width: 278px;} 
+.fpptaLogo {background: url("//csesamesecure.s3.amazonaws.com/images/login_other_FPPTA.png") no-repeat scroll left top rgba(0, 0, 0, 0); color: rgba(0, 0, 0, 0);height:84px;top:-1px;width:337px;} 
+
+/* #header-navigation .sprite-site-logo  moved to PNG _header.css */
+/* 	{background-image: url(//csesamesecure.s3.amazonaws.com/themes/modular/skin/sprite-logo-secure.png); background-repeat:no-repeat; display:inline-block; height:52px; margin:0px 1px;} */
+/* 	#header-navigation .sprite-site-logo{ margin-top:18px; width:178px; height:46px; background-position:0px 0px;} */
+
+	.editnote {font-size:9px;color:#75a3ae;}
+	label.error {display:block; padding-top:3px;}
+		.login-area {position: absolute; right:0px;  top:6px;}
+		label.error {display:block; padding-top:3px;}
+		#header-navigation .login-area .login-button {display:none;}
+		#publicSiteMobileMenu .togglesignup {display:none;}
+		#loginForm-container{max-width:340px;}
+		
+		@media only screen and (min-width: 100px) and (max-width:959px) {
+			#loginForm-container{max-width:90%;}
+			#loginForm-container .signup-message{display:none;}
+			#feedbackPanel { padding:8px!important; text-align: left }
+		}
+
+ul, li, p, h1, h2, h3, h4, h5, h6 em, form, fieldset, label, input, strong {
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+
+
+	/* Show-Hide Eye Toggle moved from SpecificOverall */
+		#togglePasswordView {}
+		.toggle-icon {margin-top:2px; width:16px; height:16px; background-size:cover; margin-right:5px;}
+		.icon-show {background-image:url("//csesamesecure.s3.amazonaws.com/themes/modular/art/icon-show.png");}
+		.icon-hide {background-image:url("//csesamesecure.s3.amazonaws.com/themes/modular/art/icon-hide.png");}
+
+.holderBody {
+	
+}
+
+
+		.grecaptcha-badge{
+			visibility: collapse !important;  
+		} 
+	</style>
+    
+<script type="text/javascript">window.logged_in = "no";</script>
+<script type="text/javascript">window.hasActiveSubscription = "no";</script>
+ 
+<script type="text/javascript" src="/jsmin/gzip_1722225094/jsmin/common/optimizely.utility.js" ></script>
+
+<script type="text/javascript">	
+    window.optimizely = window.optimizely || [];
+</script>
+
+
+
+<!-- Prod -->
+<script src="//cdn.optimizely.com/js/173671602.js"></script>
+<script> var migrateOptInOptimizely = 2559070407;
+var wrongUnitAddressOptimizely=8210833042;</script>
+
+
+<script>	
+	var sessionId ='0onbqXvMmhXvQ7oXwwfxhMUhlHuhsJ8WMfcNI3TTdhScpl5XIY';
+	var storedSessionId = optimizelyDataController.getCustomAttributeValue("cs-session-id");	
+	if(storedSessionId == null || storedSessionId != sessionId){
+		optimizely.push({
+	    	"type": "user",
+	    	 "attributes": {
+	    		 "cs-session-id": sessionId	    		    
+	    	}		  	
+		});
+	}
+	var visitorId ='CgoMj13PJRIECQbwFRLNAg==';
+	var storedVisitorId = optimizelyDataController.getCustomAttributeValue("cs-visitor-session-id");	
+	if(storedVisitorId == null || storedVisitorId != visitorId){
+		optimizely.push({
+	    	"type": "user",
+	    	 "attributes": {
+	    		 "cs-visitor-session-id": visitorId	    		    
+	    	}		  	
+		});
+	}
+</script>
+    
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-12438625-1"></script>
+<script>
+	var googleAdwordsProfileId = 'AW-999429650';
+			var googleAnalyticsProfileID = 'UA-12438625-1',
+		_prumId = '51afad94abe53d295d000000';
+		
+</script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', googleAdwordsProfileId);
+	
+	
+	var dimensionsObj = {};
+	<!-- Account credit provider Google Analytics tracking -->
+
+    <!-- Premium member Google Analytics tracking -->
+    	dimensionsObj['Membership Type'] = 'FREE';
+
+	var adButton = /.*#ad=([^?]*)/.exec(window.location.href)
+	if(adButton && typeof adButton[1] !== "undefined") {
+		dimensionsObj['orgcta'] = adButton[1];
+	}
+	
+    dimensionsObj['pg'] = location.pathname.replace(/%20/g, ' ').replace(/[^a-zA-Z0-9-~!*_. /]/g, '').substr(0, 62);
+	
+	gtag('set', dimensionsObj);
+	gtag('config', googleAnalyticsProfileID , {
+		'custom_map': {
+			'dimension1' : 'Credit Provider',
+			'dimension2': 'Membership Type',
+			'dimension3': 'orgcta',
+			'dimension4': 'ru',
+			'dimension5': 'pg'
+		}
+	});
+
+</script>
+<script type="text/javascript">
+	var _prum = [
+		['id', _prumId],
+      	['mark', 'firstbyte', (new Date()).getTime()]
+	];
+	(function() {
+    	var s = document.getElementsByTagName('script')[0]
+      	, p = document.createElement('script');
+    	p.async = 'async';
+    	p.src = '//rum-static.pingdom.net/prum.min.js';
+    	s.parentNode.insertBefore(p, s);
+	})();        
+</script>
+		
+	<script type="text/javascript">
+		setTimeout(function(){var a=document.createElement("script");
+		var b=document.getElementsByTagName("script")[0];
+		a.src=document.location.protocol+"//script.crazyegg.com/pages/scripts/0011/3008.js?"+Math.floor(new Date().getTime()/3600000);
+		a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+	</script>
+
+
+<!-- WebEngage Start -->
+		<script id=_webengage_script_tag type="text/javascript">
+			
+			var _weq = _weq || {};
+			
+			_weq.loadRuleData = function() {
+				var WEBENGAGE_MAP = {"Logged In Count":9,"Credit Usage":"F","Number of Days Since Registration":2,"Shift in Inquiries Since Refresh":0,"CS Shift Since Refresh":0,"Shift in Late Payments Since Refresh":0,"highest limit Bank of America CC":null,"Closed Collections":0,"Collections":3,"Months Since New Mortgage Tradeline Month":null,"Cap One Prequal Result":0,"highest limit American Express CC":null,"Months Since New CC Tradeline":null,"Inquiries Count":0,"Payment History":"D","Days Since Email Partner Unsubscribe":-1,"CS Band I":"24","Open Late Payments":0,"Days Since Cap One Application":"","Days Since Last Inquiry Monitoring Alerts":0,"Credit Usage Percent":0,"Closed Late Payments":0,"Usertoken":"2142aa4a-8a28-4fad-9de2-fa4e995ba1ff","Days Since Cap One Prequal":"","Credit Usage Shift Since Refresh":0,"Days Since Cap One Prequal Click Apply":"","Credit Score":605,"Credit Usage Shift Since Sign Up":0,"Total Unsecured Debt Shift Since Sign Up":0,"Late Payments":0,"CS Band III":"Fair","Months Since New Auto Tradeline":null,"DTI Ratio":5.0,"Debt Amount - Auto Loans":0,"Monthly Payments - Auto Loan":0,"Shift in Collections Since Refresh":0,"Account Last Digit":"4","Delinquent Account - View Popup Date":null,"Open Collections":3,"Monthly Payments - All":490,"Cap One App - Decision":"No Record","Open Most Recently Late Account":0,"Income From User":"No","highest limit Discover CC":null,"Monthly Payments - Credit Cards":0,"Reported Income":115081.0,"highest limit Capital One CC":null,"Credit Limit":0,"Months Since Other Loan Tradeline":null,"Debt Amount - Credit Cards":0,"Days Since Email Engagement Unsubscribe":-1,"Credit Limit Shift Since Refresh":0,"Months Since Any Tradeline":169,"highest limit Chase CC":null,"User Segment":3,"highest limit Wells Fargo CC":null,"Cap One App - Product Offer":"","CS Shift Since Sign Up":0,"Debt Amount - Home Loans":0,"first6digitsCCmap":null,"Delinquent Account - Contact Phone Click Date":null,"Ref Code":null};
+				_weq['webengage.survey.ruleData'] = {};
+				for (var property in WEBENGAGE_MAP) {
+					if (WEBENGAGE_MAP.hasOwnProperty(property)) {
+                        _weq['webengage.survey.ruleData'][property] = WEBENGAGE_MAP[property];
+					}
+                }
+			};
+
+			_weq.loadCustomData = function() {
+				var WEBENGAGE_MAP = {"Logged In Count":9,"Credit Usage":"F","Number of Days Since Registration":2,"Shift in Inquiries Since Refresh":0,"CS Shift Since Refresh":0,"Shift in Late Payments Since Refresh":0,"highest limit Bank of America CC":null,"Closed Collections":0,"Collections":3,"Months Since New Mortgage Tradeline Month":null,"Cap One Prequal Result":0,"highest limit American Express CC":null,"Months Since New CC Tradeline":null,"Inquiries Count":0,"Payment History":"D","Days Since Email Partner Unsubscribe":-1,"CS Band I":"24","Open Late Payments":0,"Days Since Cap One Application":"","Days Since Last Inquiry Monitoring Alerts":0,"Credit Usage Percent":0,"Closed Late Payments":0,"Usertoken":"2142aa4a-8a28-4fad-9de2-fa4e995ba1ff","Days Since Cap One Prequal":"","Credit Usage Shift Since Refresh":0,"Days Since Cap One Prequal Click Apply":"","Credit Score":605,"Credit Usage Shift Since Sign Up":0,"Total Unsecured Debt Shift Since Sign Up":0,"Late Payments":0,"CS Band III":"Fair","Months Since New Auto Tradeline":null,"DTI Ratio":5.0,"Debt Amount - Auto Loans":0,"Monthly Payments - Auto Loan":0,"Shift in Collections Since Refresh":0,"Account Last Digit":"4","Delinquent Account - View Popup Date":null,"Open Collections":3,"Monthly Payments - All":490,"Cap One App - Decision":"No Record","Open Most Recently Late Account":0,"Income From User":"No","highest limit Discover CC":null,"Monthly Payments - Credit Cards":0,"Reported Income":115081.0,"highest limit Capital One CC":null,"Credit Limit":0,"Months Since Other Loan Tradeline":null,"Debt Amount - Credit Cards":0,"Days Since Email Engagement Unsubscribe":-1,"Credit Limit Shift Since Refresh":0,"Months Since Any Tradeline":169,"highest limit Chase CC":null,"User Segment":3,"highest limit Wells Fargo CC":null,"Cap One App - Product Offer":"","CS Shift Since Sign Up":0,"Debt Amount - Home Loans":0,"first6digitsCCmap":null,"Delinquent Account - Contact Phone Click Date":null,"Ref Code":null};
+				_weq['webengage.survey.customData'] = {};
+                for (var property in WEBENGAGE_MAP) {
+                    if (WEBENGAGE_MAP.hasOwnProperty(property)) {
+                        _weq['webengage.survey.customData'][property] = WEBENGAGE_MAP[property];
+                    }
+                }
+			};
+
+			_weq['webengage.licenseCode'] = '14507c905';
+			_weq['webengage.widgetVersion'] = "4.0";
+			_weq['webengage.delay'] = 4;
+			_weq.loadRuleData();
+			_weq.loadCustomData();
+
+			(function(d) {
+				var _we = d.createElement('script');
+				_we.type = 'text/javascript';
+				_we.async = true;
+				_we.src = (d.location.protocol == 'https:' ? "https://ssl.widgets.webengage.com" : "http://cdn.widgets.webengage.com") + "/js/widget/webengage-min-v-4.0.js";
+				var _sNode = d.getElementById('_webengage_script_tag');
+				_sNode.parentNode.insertBefore(_we, _sNode);
+			})(document);
+
+		</script>
+		<style>	#webengage-error-messages {display:none!important;}	</style>
+<!-- WebEngage end -->
+</head>
+<body id="publicSiteMobileMenu" class="unifloatit-rel">
+	<script type="text/javascript">
+	  (function() {
+	    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+	    po.src = 'https://apis.google.com/js/plusone.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+	  })();
+	</script>
+
+
+<div class="main-headerClean">
+	<div class="content-container mMaxwidth">
+
+
+					<div class="mobileshow poof unifloatit-rel" style="height:65px;margin-top:0px;">
+				<a class="block csLogoBg fcenterFit" style="top:6px; width:140px; height:38px; z-index:99999; background-size:135px;" href="//www.creditsesame.com" tabindex="-1"></a>
+				
+				<div class="text-center woof mtext-14">
+						
+				</div>
+				
+				 	<span class="togglesignup"><a class="unifloatit-abs pad5 roundsm block" style="top:10px; right:9px; z-index:99999;background-color:#fdd504; color:#000000;text-decoration: none;"  href="/signup">Sign Up</a></span>
+					<span class="togglelogin poof"><a class="unifloatit-abs roundsm block" style="top:10px; right:9px; padding:5px 10px; z-index:10;background-color:#ffffff; color:#00B8D0;text-decoration: none;"  href="/login">Login</a></span>
+				
+			</div>
+			<div class="main-branding fclear mobilehide" id="header-navigation">
+				<a class="block sprite-site-logo showlink header-partners" id="homeLink" href="//www.creditsesame.com"  tabindex="-1"><span class="poof">Credit Sesame</span></a>
+												
+					<div class="alreadyamember sg-grey4 poof bold">Already have an account?</div>
+					<div class="login-area">
+						<ul style="margin:0px; padding:0px;">
+			                <a href="/login"><li data-bind="click:$root.clickLogin" class="login-button togglelogin">Login</li></a>
+			                <a href="/signup"><li class="sign-up-button togglesignup" style="display:none;">Sign Up</li></a>
+						</ul>
+					</div>
+				
+			</div>
+
+	</div>
+</div>
+<div class="newSiteToggle poof">
+	<div class="pad15 sg-blue1BG sg-grey7">
+		<div class="mtext-16 text-20 weight-700 text-center">
+		<img class="inblock unifloatit-rel" style="top:3px;" src="//csesamesecure.s3.amazonaws.com/themes/modular/skin/image-seed-web.png" /> Psst...notice anything different?</div>
+		<div class="Confine400 text-center fcenterFit pad20 killpadt killpadb">We just got a makeover! We hope you'll love our new look.</div>
+	</div>
+</div>
+
+	
+<script language="javascript">
+	var cookieName = "newsite-banner-displayed";
+	var cookie = $.cookies.get(cookieName);
+	if(cookie != "true"){
+		$(".newSiteToggle").removeClass("poof");
+		$.cookies.set(cookieName, "true", {domain : CSContext.sharedDomain, path : "/", hoursToLive: 365 * 10 * 24});
+		
+	}
+
+</script>
+
+	
+<div class="format100 holderBody">
+	<div class="content-container">
+		<div id="LogIn" class="text-14">
+			<div class="sg-grey7BG BStroke BStrokeBotOnly SGBSGrey5 poof mobileshow mpad15 text-center">
+			 	Don't have an account? <a href="signup1v3" class="signup-link">Sign up for free</a>.
+			</div>
+			<div class="mobilemin-height0 mCenter text-center MobileConfine">
+				<div class="fclear"></div>
+			</div>
+			<div class="fclear"></div>
+			
+
+			
+			<div class="unifloatit-relTEST">
+		<div id="loginForm-container" class="fcenterFit mCenter m100wide mConfine400 realWidth">
+			<h1 class="poof">Credit Sesame Login</h1>
+			<div class="pad20 mpad10"></div>
+			<div class="text-23 mtext-20 text-center mtext-left bold mobileLoginMarginShrink2 mCenter MobileConfine margbt15">
+				<div class="woof">
+					<span id="login-usrGreeting" class="poof">Welcome Back, <span>test!</span></span>
+				</div>
+			</div>
+		  	<div class="fcenterFit mCenter m100wide mConfine400">
+		
+			<form id="loginForm" action="/s/loginUser" method="post">
+					
+					
+				<div class="fcenterFit MobileConfine"> 
+									<div class="text-14 bold text-left pad5 label killpadl">Email</div>
+					<input id="email" name="email" type="text" value="" class="format100 text-16 pad8 BStroke round3 mtext-19"/><br/>
+						<label for="email"></label>  
+					
+					<div class="fclear pad4"></div>
+				
+					<div class="text-14 pad5 killpadl killpadr">
+						<div class="fleft format50 bold label">Password</div>
+						<div id="togglePasswordView" class="fleft format50 sg-blue1 showlink text-right">
+							<div class="inblock fright" id="toggleShowHide">Show</div>
+							<div class="icon-show toggle-icon fright"></div>
+							<div class="fclear"></div>
+						</div>
+						<div class="fclear"></div>
+					</div>
+					
+					<input id="password" name="password" type='password' autocomplete='off' value='' class="format100 text-16 pad8 BStroke round3 mtext-19"/><br/>
+					<label for="password" class="block"></label> 
+					<div class="text-14 text-left margtp10 mobileLoginMarginShrink3 pad5 killpadl" style="margin-bottom:19px;">
+						<input type="checkbox" id="rememberMe" name="rememberMe" class="rpad"  /> <label for="rememberMe" class="label">Remember Me on this Device</label>
+					</div>
+					
+					<div class="fclear"></div> 
+					
+					<input type="hidden" id="loginStatus" name="loginStatus" value="" />
+					<input type="hidden" id="campaign" name="campaign" value="" />
+					<input type="hidden" id="enableRefreshPopUp" name="enableRefreshPopUp" value="" />
+	                <input type="hidden" name="mobilebypass" value="true"/>
+					<input type="hidden" name="_csrf" value="918a06f5-6f55-4000-a355-f3ca13e9b95e"/>
+					<input type="hidden" id="captchaToken"  name="captchaToken" value="" />
+					<div class="text-14 text-left">
+						<input id="loginButton" type="submit" value="Log In"  class="OscButtonV4BG OscButtonOrange round3 showlink realWidth format100" style="border-width:0px; min-width:150px;"/>
+					</div>
+					<div id="recoverAccount-container" class="text-14 text-center padtpbt15">
+						<a href="/s/forgot-password" id="forgotPassword" class="label forgotPassword-link">Forgot Your Password?</a>
+					</div>
+					<div class="format100 mobilemarginKill signup-message">
+						<div class="fcenter text-center text-14">Don't have an account? <a class="signup-link" href="signup1v3">Sign up for free</a>.</div>
+					</div>
+				</div>	        
+			</form>
+					</div>
+		</div>
+					</div>
+	
+		</div>
+
+<div id="recover-email-container" style="max-width:340px;" class="fcenterFit mCenter m100wide mConfine400 sg-grey7BG realWidth text-14 login-other poof">
+	<div class="pad10 mobilehide"></div>
+	<div class="text-center mtext-left text-23 mtext-20 bold padtpbt20">
+		Recover your email
+	</div>
+	Please contact customer support for assistance with recovering your email.
+	<div class="padtpbt15 margtp10">
+		<a class="OscButtonCTABig OscButtonOrange round3 cleanlink" href="https://help.creditsesame.com/hc/en-us/articles/360004748992-Contact-Us" target="_blank">Contact Customer Support</a>
+	</div>
+	<div class="show-login-form sg-blue1 showlink text-center">Return to login</div>
+	<div class="pad20 margtp15"></div>
+</div>
+
+	</div>
+</div>
+
+ <div id="mobile-buttons">
+ 	<a href="//smart.link/5c7dae3d542b3"><img class="btn-app-store" src="//csesamesecure.s3.amazonaws.com/images/appBadge-appstore.png"  border="0" /></a>         
+	<a href="//smart.link/5c7dae3d542b3"><img class="btn-google" src="//csesamesecure.s3.amazonaws.com/images/appBadge-googleplay.png"  border="0" /></a>
+</div>
+	<div class="pad10"></div>
+	<div class="BStroke BStrokeTop"></div>
+
+
+
+ 
+<footer id="footer" class="m100wide">
+	<div class="footer-content m100wide">
+		<div class="fclear pad10 mobilehide"></div>
+	    <div id="footer-details" class="fcenterFit">
+	        <div id="details-left" class="fleft mfclear">
+	            <ul class="social-icons-public">
+	                <li class="sprite-social-icons-public facebook"><a target="_blank" href="https://facebook.com/creditsesame" class="text-0"><span class="poof">Facebook</span></a></li>
+	                <li class="sprite-social-icons-public twitter"><a target="_blank" href="https://twitter.com/creditsesame"><span class="poof">twitter</span></a></li>
+	                <li class="sprite-social-icons-public linkedin"><a target="_blank" href="https://www.linkedin.com/company/1098518"><span class="poof">LinkedIn</span></a></li>
+	                <li class="sprite-social-icons-public googleplus"><a target="_blank" href="https://plus.google.com/107508880845051280634/posts"><span class="poof">Google +</span></a></li>
+	            </ul>
+	            <div><p class="cs-address">444 Castro St., Ste 500, Mountain View, CA 94041</p><p class="cs-address margtp5">100 Montgomery St., San Francisco, CA 94104</p></div>
+	        </div>
+	        <div id="details-right" class="fright mfclear">
+	            <div class="footer-icons-verified fright mfclear">
+	                <a class="logo-bbb-public" target="_blank" href="http://www.bbb.org/sanjose/business-reviews/financial-services/credit-sesame-in-sunnyvale-ca-1000006110">
+	                    <img src="//csesamesecure.s3.amazonaws.com/images/footer-public-logo-bbb.png" border="0" alt="Better Business Bureau"/>
+	                </a>
+	                <a class="logo-verisign-public" target="_blank" href="https://trustsealinfo.websecurity.norton.com/splash?form_file=fdf/splash.fdf&dn=creditsesame.com&lang=en">
+	                    <img src="https://csesamesecure.s3.amazonaws.com/images/footer-public-logo-digicert.png" border="0"  alt="Verisign"/>
+	
+	                </a>
+	                <a class="logo-mcafee-public" target="_blank" href="https://www.mcafeesecure.com/RatingVerify?ref=secure.creditsesame.com">
+	                    <img width="94" height="54" border="0" src="//csesamesecure.s3.amazonaws.com/images/footer-public-logo-mcafee.gif"  alt="McAfee SECURE sites help keep you safe from identity theft, credit card fraud, spyware, spam, viruses and online scams" oncontextmenu="alert('Copying Prohibited by Law - McAfee SECURE is a Trademark of McAfee, Inc.'); return false;" />
+	                </a>
+	
+	                <a href="http://www.etrust.org/cert/876876.html" target="_blank">
+	                    <img src="//csesamesecure.s3.amazonaws.com/images/footer-public-logo-etrust_small.gif" border="0" class="embed" alt="eTrust Certified Privacy Policy : Click to Verify" />
+	                </a>
+	                <a href="javascript:CCPopUp('https://seal.controlcase.com/', 1749180134);">
+	                    <img src="//csesamesecure.s3.amazonaws.com/images/footer-public-logo-PCI.gif"  oncontextmenu='return false;' border="0" alt="PCI Compliant" />
+	                </a>
+					<script language ='javascript'>
+						function CCPopUp(SEALURL, cId){
+						  window.open(""+SEALURL+"index.php?page=showCert&cId="+cId+"", "win",'toolbar=0,location=0,directories=0,status=0,menubar=0,scrollbars=0,resizable=0,width=700,height=585');
+						  self.name = "mainWin";
+						}
+					</script>
+	            </div>
+	            <div class="fclear"></div>
+	            <div class="copyright-public mtext-center">Copyright &copy; 2010 - 2019 Credit Sesame, Inc. | All rights reserved.</div>
+	            <div class="fclear"></div>
+	        </div>
+	        <div class="fclear"></div>
+	    </div>
+    
+	</div>
+	<div class="fclear"></div>
+</footer>
+
+
+
+
+
+	<script type="text/javascript">
+		var loginTrackingController;
+		var validator;
+		
+		var jsModel = {"captchaClientKey":"6LcV65oUAAAAAMMoDgBZIK3Q9TRhWM0SVJodEE2a"};
+		
+		var captchaController = new CaptchaController(jsModel);
+		captchaController.generateCaptcha(jsModel.captchaClientKey,'loginPage');
+		
+		//Added for WEB-28478 to avoid flicker 
+		if(document.URL.indexOf("ocf") > -1){ 
+			$("#login-usrGreeting").html("Please log in to continue, <span>test</span>.").addClass("mtext-23");
+		}
+		
+		$("#login-usrGreeting").show();
+		//end additions for WEB-28478
+		
+		$(function() {
+			var pushOptimizelyEvent = function(_eventName){
+			    window.optimizely = window.optimizely || [];
+			    window.optimizely.push(['trackEvent', _eventName]);
+			    window.optimizely.push({type: "event",eventName: _eventName});
+			    console.log("Optimizely event: " + _eventName);
+		    }
+			
+			<!-- WEB-22629 -->
+			$("#homeLink").click(function() {
+				var tempHomeRedirectCookie = $.cookies.get("temporaryHomeRedirect");
+				if (tempHomeRedirectCookie != null) {
+					document.location = CSContext.csUrlRoot;
+				} else {
+					document.location = "http://www.creditsesame.com/";
+				}
+			});
+
+			var bestCardLogin = false
+			if(bestCardLogin){
+				$('.BestCardsShow').show();
+				$('.BestCardsHide').hide();
+			}
+			
+			
+
+            if ($.cookies != null) {
+                // clear CCApp cookie
+                $.cookies.del('CCApp.client');
+                // clear mortgage cpc cookies
+                $.cookies.del('mortgageCPCForm_PURCHASE');
+                $.cookies.del('mortgageCPCForm_REFINANCE');
+            }
+
+			loginTrackingController = new LoginTrackingController('Log In');
+			loginTrackingController.trackViewPage();
+			
+			var ocf = getParameterFromUrl("ocf");
+			
+		    trackingController = new CsApplicationTrackingController("Log In", null, "Log In", null);
+
+		    if(ocf){
+				// if the user is redirectd
+				trackingController.trackCustomCompleted('Email Authentication Redirect');
+			}
+		    
+			var overviewAdsController;
+			overviewAdsController = new OverviewAdsController('Log In');
+		    overviewAdsController.initAdvertisement();
+
+			validator = $("#loginForm").validate({
+				rules: {
+					email: {
+						required: {
+							depends:function(){
+					            $(this).val($.trim($(this).val()));
+					            return true;
+					        }
+						},
+						email: true,
+						maxlength: 50
+					},
+					password: {
+						required: {
+							depends:function(){
+					            $(this).val($.trim($(this).val()));
+					            return true;
+					        }
+						}
+					}
+				},
+				messages: {
+					email: {
+						required: "Email address is required.",
+						email: "Please enter a valid e-mail address format.",
+						maxlength: "Email is longer than the maximum of 50 characters"
+					},
+					password: {
+						required: "Password is required."
+					}
+				},
+				submitHandler : function(form){
+					if(validator.valid()){
+						pushOptimizelyEvent("login_button_click");
+						loginTrackingController.trackCustomClick('Log In', null, null);
+						$(form).find("#loginButton").attr("disabled", "disabled");
+						document.getElementById('captchaToken').value = captchaController.captchaToken;
+						form.submit();
+					} else {
+						return false;
+					}
+				}
+
+			});
+
+			$("#learnMore").click(function(event) {
+			});
+
+			$(".forgotPassword-link").live( "click", function(event) {
+				pushOptimizelyEvent("login_forgot_password_click");
+				loginTrackingController.trackCustomClick("Forgot Password", null, null);
+				event.stopPropagation();
+			});
+			
+			$(".signUpNewAccount-link").live( "click", function(event) {
+				pushOptimizelyEvent("log_in_guide_stuck_users_signup_link_click");
+				loginTrackingController.trackCustomClick("Login Guide Stuck Users Signup Click Link", null, null);
+				event.stopPropagation();
+			});
+
+			$("#password").live( "click", function(event) {
+				loginTrackingController.trackCustomClick("Enter Password", null, null);
+				event.stopPropagation();
+			});
+
+			$("#LaunchMobileAppButton").live( "click", function(event) {
+				loginTrackingController.trackCustomClick("Download App", null, null);
+				event.stopPropagation();
+			});
+
+			$(".sign-up-button, .signup-link").live("click", function(){
+				pushOptimizelyEvent("signup_link_click");
+			});
+
+			if($('#loginStatus').val()){	
+				
+				if($('#loginStatus').val() === 'loginFailAuthLockout'){
+					pushOptimizelyEvent("change_messaging_login_failure_loginFailAuthLockout");	
+				}		
+				
+				if($('#loginStatus').val() === 'loginFail'){
+					pushOptimizelyEvent("change_messaging_login_failure_loginFail");//not created in optimizely
+				}	
+			}
+			
+			
+			
+			/** WEB-30691 Recover email smoke test **/
+			$("#recoverEmailLink").live("click", function(){
+				pushOptimizelyEvent("login_recover_email_click");
+				$("#LogIn").hide();
+				$("#recover-email-container").show();
+			});
+			
+			$(".show-login-form").live("click", function(){
+				$(".login-other").hide();
+				$("#LogIn").show();
+			});
+			
+			
+			$("#togglePasswordView").live("click", function(){
+				var ptype = $("#password").attr("type");
+				if(ptype == "password"){
+					$("#password").prop("type", "text");
+					$("#toggleShowHide").text("Hide");
+					$(".toggle-icon").removeClass("icon-show").addClass("icon-hide");
+				} else if(ptype == "text"){
+					$("#password").prop("type", "password");
+					$("#toggleShowHide").text("Show");
+					$(".toggle-icon").removeClass("icon-hide").addClass("icon-show");
+				}
+			});
+
+		  });
+		  
+		function signUpSubmit(){
+			if($('#email').valid()){
+				var emailLandingPage = $('#email').val();
+			    window.location.href = "/s/signup1v3?email="+emailLandingPage + "&signup2a=true";
+			}
+		};
+		
+		function reportOptimizely(event) {
+		    window['optimizely'] = window['optimizely'] || [];
+		    window['optimizely'].push({
+		      type: "event",
+		      eventName: event
+		    });
+		}
+	</script>
+			<!-- begin olark code -->
+			<script data-cfasync="false" type='text/javascript'>/*<![CDATA[*/window.olark||(function(c){var f=window,d=document,l=f.location.protocol=="https:"?"https:":"http:",z=c.name,r="load";var nt=function(){
+			f[z]=function(){
+			(a.s=a.s||[]).push(arguments)};var a=f[z]._={
+			},q=c.methods.length;while(q--){(function(n){f[z][n]=function(){
+			f[z]("call",n,arguments)}})(c.methods[q])}a.l=c.loader;a.i=nt;a.p={
+			0:+new Date};a.P=function(u){
+			a.p[u]=new Date-a.p[0]};function s(){
+			a.P(r);f[z](r)}f.addEventListener?f.addEventListener(r,s,false):f.attachEvent("on"+r,s);var ld=function(){function p(hd){
+			hd="head";return["<",hd,"></",hd,"><",i,' onl' + 'oad="var d=',g,";d.getElementsByTagName('head')[0].",j,"(d.",h,"('script')).",k,"='",l,"//",a.l,"'",'"',"></",i,">"].join("")}var i="body",m=d[i];if(!m){
+			return setTimeout(ld,100)}a.P(1);var j="appendChild",h="createElement",k="src",n=d[h]("div"),v=n[j](d[h](z)),b=d[h]("iframe"),g="document",e="domain",o;n.style.display="none";m.insertBefore(n,m.firstChild).id=z;b.frameBorder="0";b.id=z+"-loader";if(/MSIE[ ]+6/.test(navigator.userAgent)){
+			b.src="javascript:false"}b.allowTransparency="true";v[j](b);try{
+			b.contentWindow[g].open()}catch(w){
+			c[e]=d[e];o="javascript:var d="+g+".open();d.domain='"+d.domain+"';";b[k]=o+"void(0);"}try{
+			var t=b.contentWindow[g];t.write(p());t.close()}catch(x){
+			b[k]=o+'d.write("'+p().replace(/"/g,String.fromCharCode(92)+'"')+'");d.close();'}a.P(2)};ld()};nt()})({
+			loader: "static.olark.com/jsclient/loader0.js",name:"olark",methods:["configure","extend","declare","identify"]});
+			/* custom configuration goes here (www.olark.com/documentation) */
+			olark.identify('6707-216-10-6981');/*]]>*/</script><noscript><div class="fclear pad5 text-center"><a href="https://www.olark.com/site/6707-216-10-6981/contact" title="Contact us" target="_blank">Questions? Feedback?</a> powered by <a href="http://www.olark.com?welcome" title="Olark live chat software">Olark</a></div></noscript>
+			<!-- end olark code -->
+</body>
+</html>
+
